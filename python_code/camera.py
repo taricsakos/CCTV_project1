@@ -1,9 +1,3 @@
-#Modified by smartbuilds.io
-#Date: 27.06.20
-#Desc: This scrtipt is running a face recongition of a live webcam stream. This is a modifed
-#code of the orginal Ageitgey (GitHub) face recognition demo to include multiple faces.
-
-
 import face_recognition
 import cv2
 import numpy as np
