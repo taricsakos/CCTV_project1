@@ -5,9 +5,7 @@ import time
 import os
 
 app = Flask(__name__)
-#app = Flask(__name__, template_folder='/var/www/html/templates')
 
-#background process happening without any refreshing
 @app.route('/left')
 def left():
     print ("Left")
